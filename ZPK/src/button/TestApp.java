@@ -48,7 +48,7 @@ public class TestApp {
 		btnBasic.setBounds(177, 48, 89, 23);
 		frame.getContentPane().add(btnBasic);
 		
-		JButton btnTrjk = new JButton("TR\u00D3JK\u0104T");
+		JButton btnTrjk = new JButton("TRÓJK¥T");
 		btnTrjk.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				TriangleButton trojkat = new TriangleButton("Tekst");
